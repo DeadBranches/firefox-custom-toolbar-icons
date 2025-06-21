@@ -10,5 +10,8 @@ The contents of this repo must be located in a directory named `chrome` with the
 2. Clone this repository into the chrome subfolder of your local profile directory
    ```
    mkdir -p <local-profile-directory>/chrome
-   git clone git@github.com:DeadBranches/custom-firefox-toolbar-icons.git <local-profile-directory>/chrome
+   git clone git@github.com:DeadBranches/firefox-custom-toolbar-icons.git <local-profile-directory>/chrome
    ```
+
+#### Thanks to
+Vectors and icons by [SVG Repo](https://www.svgrepo.com)
