@@ -1,0 +1,25 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); 
+
+toolbarbutton.bookmark-item[label="DownloadAudio"] > .toolbarbutton-icon {
+  width: 0 !important;        
+  height: 0 !important;
+  padding: 0 0 16px 16px !important;
+  background: url("icons/download-audio.svg") center/contain no-repeat !important;
+}
+.toolbarbutton-text[value="DownloadAudio"] {
+  display: none !important;
+}
+/* Option: Customize the text using the following INSTEAD of the above.
+.toolbarbutton-text[value="DownloadAudio"]::before {
+  content: 'ⓘ' / '<span class="aria-hidden"> Info: bunnies are cute</span>';
+} */
+
+toolbarbutton.bookmark-item[label="Memories"] > .toolbarbutton-icon {
+  width: 0 !important;        
+  height: 0 !important;
+  padding: 0 0 16px 16px !important;
+  background: url("icons/download-memories.svg") center/contain no-repeat !important;
+}
+.toolbarbutton-text[value="Memories"] {
+  display: none !important;
+}
